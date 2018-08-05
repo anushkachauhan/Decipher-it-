@@ -1,0 +1,219 @@
+<!DOCTYPE.html>
+<html>
+
+	<head>
+	<title>CoverStyle</title>
+	
+	<style>
+	
+	body{
+	    background-repeat:no-repeat;
+		background-image:url(hello4.gif);
+		background-size:cover;
+		}
+	
+	#main
+	    {
+		position:absolute;
+		margin-top:90px;
+		margin-left:170px;
+		width:990px;
+		height:520px;
+		border:10px solid white;
+		}
+	h1 {
+	    position:absolute;
+		margin-top:170px;
+		margin-left:450px;
+	    color:white;
+		text-align:center;
+		font-family:Calibri;
+		font-size:110px;
+		
+		}
+		
+	
+	#instruction {
+             margin-left:250px;
+			 margin-top:350px;
+			 position:absolute;
+			 padding:4px 4px 4px 4px;
+			 
+			 }
+	#leaderboard {
+             margin-left:250px;
+			 margin-top:480px;
+			 padding:4px 4px 4px 4px;
+			 position:absolute;
+			 }
+	#intro {
+	         margin-left:600px;
+			 margin-top:380px;
+			 width:800px;
+			 height:150px;
+			 position:absolute;
+			 }
+	
+	
+	/* The Modal (background) */
+		.modal {
+     /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		}
+
+/* Modal Content/Box */
+	.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 5px;
+    border: 1px solid #888;
+    width: 70%;
+     height:80%;	/* Could be more or less, depending on screen size */
+	}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+	li{
+    position:absolute;
+	margin-top:40px;
+	margin-left:30px;
+	font-color:black;
+	font-size:20px;
+	text-align:left;
+	}
+	ol{
+	    margin-top:60px;
+		margin-left:10px;
+		font-size:50px;
+		font-color:black;
+		position:absolute;
+		
+		}
+		
+	#myBtn {
+	
+	width:240px;
+	height:80px;
+	color:black;
+	position:absolute;
+	}
+	#myBtn2 {
+	
+	width:240px;
+	height:80px;
+	color:black;
+	position:absolute;
+	}
+	
+	#myBtn3 {
+	    width:220px;
+		height:80px;
+		color:black;
+		position:absolute;
+		margin-left:750px;
+		margin-top:520px;
+		
+	}
+	
+	
+	
+	</style>
+	</head>
+	
+	<body>
+	<h1>FISH AWAY</h1>
+	<div id="main">
+	</div>
+	
+		
+	<div id="instruction">
+					<button id="myBtn"><p style="font-size:20px; font-color:black">INSTRUCTION</p></button>
+					<div id="myModal" class="modal">
+					
+					   <div class="modal-content">
+					<span class="close">&times;</span>
+					
+					<ol >Instruction
+	                <p style="font-size:20px">1.This game is for 1 hour</p>
+					<p style="font-size:20px">2.There are three levels in this game.</p>
+					<p style="font-size:20px">3.The judges decision would be final and binding</p>
+					<p style="font-size:20px">4.The team with the maximum score shall be declared winner</p>
+					<p style="font-size:20px">5.In case of a tie-breaker, the winner will be decided on the basis <br/>of least time taken</p>
+					<p style="font-size:20px">6.After reading the question,click on Editor to start solving.</p>
+					<p style="font-size:20px">7.It is compulsory to start the game with level 1.</p>
+	  
+	 </ol>
+			</div>
+			</div>
+			</div>
+  
+	
+	<div id="leaderboard">
+					<button id="myBtn2" style="font-color:black"><p style="font-size:20px">LEADERBOARD</p></button>
+			</div>  
+			
+  
+			
+			<div id="intro">
+			<p style="font-size:25px;font-family:verdana"><b>Are you ready to begin your quest? <br/>
+			All species are depending on you.<br/>
+			Code your way through the obstacles...</b></p>
+			</div>
+			
+	
+	
+			<div id="Start">
+				<a href="hurdle.html"><button id="myBtn3" style="font-color:black"><p style="font-size:30px; text-align:center ; padding:auto"><strong>Let's flow</strong></p></button></a>
+			</div>
+	
+		
+	<script>
+	// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+	</body>
+</html>

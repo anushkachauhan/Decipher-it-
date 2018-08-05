@@ -1,0 +1,84 @@
+h1{
+	text-align:center;
+	color:white;
+	font-size:100px;
+	
+	
+}
+p{
+	color:white;
+	text-align:center;
+	font-size:30px;
+	padding-right:20px;
+}
+body
+{
+	background-size:100% 100%;
+	background-image:url('dancing-octopus-winner-UPY.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:0;
+	padding:0;
+}
+
+.aa
+{
+	width:210px;
+	height:auto;
+	padding-left:30px;
+	margin-left:500px;
+	font-weight:bold;
+    background-color:rgba(0,0,0,0.3);
+	color:white;
+	border-radius:20px;
+	box-shadow:inset-4px -4px rgba(0,0,0,0.8);
+	
+	
+	}
+		.aa input[type="text"]
+	{
+		padding-left:10px;
+		border-radius:5px;
+	}
+	.aa input[type="email"]
+	{
+		padding-left:10px;
+		border-radius:5px;
+	}
+	.aa input[type="password"]
+	{
+		padding-left:5px;
+		border-radius:5px;
+	}
+	.aa input[type="submit"]{
+
+		padding-left:10px;
+		text-align:center;
+		font-weight:bold;
+		border-radius:5px;
+		margin-top:20px;
+		margin-left:40px;
+		
+		
+	}
+	.button {
+	width:200px;
+	height:auto;
+	padding-left:60px;
+	margin-left:550px;
+	font-weight:bold;
+    background-color:rgba(0,0,0,1);
+	color:white;
+	border-radius:20px;
+	box-shadow:inset-4px -4px rgba(0,0,0,0.8);
+	
+}
+
+.button input[type="submit"]
+{
+	margin-left:50px;
+	border-radius:5px;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-weight:bolder;
+}		
